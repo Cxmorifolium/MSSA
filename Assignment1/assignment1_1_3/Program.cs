@@ -12,7 +12,7 @@ class Program {
         Console.Write("Please enter your second number (divisor): ");
         double divisor = Convert.ToDouble(Console.ReadLine()); 
 
-        // Sum function
+        // Division function
         double quotient =  dividend / divisor;
         double remainder = dividend % divisor;
 
