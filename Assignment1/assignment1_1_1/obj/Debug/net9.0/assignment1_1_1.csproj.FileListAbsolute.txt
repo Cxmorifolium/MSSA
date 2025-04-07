@@ -12,3 +12,4 @@ C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment1\assignment1_1_
 C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment1\assignment1_1_1\obj\Debug\net9.0\assignment1_1_1.pdb
 C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment1\assignment1_1_1\obj\Debug\net9.0\assignment1_1_1.genruntimeconfig.cache
 C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment1\assignment1_1_1\obj\Debug\net9.0\ref\assignment1_1_1.dll
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment1\assignment1_1_1\obj\Debug\net9.0\assignment1_1_1.sourcelink.json
