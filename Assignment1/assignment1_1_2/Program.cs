@@ -7,13 +7,13 @@ class Program {
     static void Main(string[] args) {
         //Ask user to input number. Use Parse function
         Console.Write("Please enter your first number: ");
-        int num1 = Convert.ToInt32(Console.ReadLine()); 
+        double num1 = Convert.ToDouble(Console.ReadLine()); 
 
         Console.Write("Please enter your second number: ");
-        int num2 = Convert.ToInt32(Console.ReadLine()); 
+        double num2 = Convert.ToDouble(Console.ReadLine()); 
 
         // Sum function
-        int sum = num1 + num2;
+        double sum = num1 + num2;
 
         //Print output
         Console.WriteLine($"Your total is: {sum}");
