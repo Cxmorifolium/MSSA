@@ -7,15 +7,15 @@ using System;
 class Program {
     static void Main(string[] args) {
         // Declare and initialize variables
-        string userName = "Hello Kitty";
-        int userAge = 9999;
-        string userAddress = "1234 A Street Dr, City, State";
+        // string userName = "Hello Kitty";
+        // int userAge = 9999;
+        // string userAddress = "1234 A Street Dr, City, State";
 
         // Print default
         //Console.WriteLine($"Personal Details:\nName: {userName}\nAge: {userAge}\nAddress: {userAddress}");
 
         // User input method
-        Console.Write("\nEnter your name: ");
+        Console.Write("Enter your name: ");
         userName = Console.ReadLine() ?? ""; //string? negates warning CS8600 null variable warning
 
         Console.Write("Enter your age: ");
