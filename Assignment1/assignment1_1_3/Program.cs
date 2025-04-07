@@ -1,0 +1,20 @@
+﻿// 3. Write a C# program to print the result of dividing two numbers. Print the quotient and remainder as well. Get the input from the user.
+using System;
+class Program {
+    static void Main(string[] args) {
+        //Ask user to input number. Use Parse function
+        Console.Write("Please enter your first number (dividend): ");
+        int dividend = Convert.ToInt32(Console.ReadLine()); 
+
+        Console.Write("Please enter your second number (divisor): ");
+        int divisor = Convert.ToInt32(Console.ReadLine()); 
+
+        // Sum function
+        int quotient =  dividend / divisor;
+        int remainder = dividend % divisor;
+
+        //Print output
+        Console.WriteLine($"Your total is: {quotient} with remainder: {remainder}");
+            
+        }
+}
