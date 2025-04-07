@@ -11,6 +11,9 @@ Expected Output :
 5 and 15 are not equal 
 
 add while loop until user initiates exit for challenge cus I suck at it. Decided to go bool method
+
+Note: new .NET frame doesn't need using System and can read top-level like python.
+Coding via VS code
 */
 
 using System;

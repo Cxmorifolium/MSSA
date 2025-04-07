@@ -3,6 +3,8 @@
 Call them appropriately when user selects the option. Give the user the option to continue or exit the program.
 
 bool, for/while, switch case application!
+Note: new .NET frame doesn't need using System and can read top-level like python.
+Coding via VS code
 
 */
 using System;

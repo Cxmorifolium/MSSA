@@ -1,4 +1,6 @@
 ﻿// 2. Write a C# program to print the sum of two numbers. Get the input from user.
+// Note: new .NET frame doesn't need using System and can read top-level like python.
+// Coding via VS code
 
 using System;
 class Program {
