@@ -32,6 +32,7 @@ class Program {
             Console.Write($"Please enter your second number: ");
             int secondNumber = Convert.ToInt32(Console.ReadLine());
 
+            // Check if numbers are equal or not
             if (firstNumber == secondNumber) {
                 Console.Write($"{firstNumber} and {secondNumber} are equal! :) ");
             }
@@ -40,7 +41,7 @@ class Program {
                 Console.Write($"{firstNumber} and {secondNumber} are not equal :( ");
             }
 
-            // handle null/user input
+            // handle user input
             while (true) {
                 Console.Write("\nWould you like to compare another? (yes/no): ");
                 string response = Console.ReadLine()?.ToLower() ?? "";
