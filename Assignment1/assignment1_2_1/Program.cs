@@ -27,10 +27,10 @@ class Program {
 
             //Ask user to input number. Use ReadLine
             Console.Write($"Are your numbers equal to each other? Let's find out! \n Please enter your first number: ");
-            int firstNumber = Convert.ToInt32(Console.ReadLine());
+            double firstNumber = Convert.ToDouble(Console.ReadLine());
 
             Console.Write($"Please enter your second number: ");
-            int secondNumber = Convert.ToInt32(Console.ReadLine());
+            double secondNumber = Convert.ToDouble(Console.ReadLine());
 
             // Check if numbers are equal or not
             if (firstNumber == secondNumber) {
@@ -50,7 +50,7 @@ class Program {
                     break; // exit inner loop and continue
                 } else if (response == "no") {
                     programActive = false;
-                    Console.WriteLine("Exiting program. Goodbye!");
+                    Console.WriteLine("Deactivating~");
                     break;
                 } else {
                     Console.WriteLine("Please respond with 'yes' or 'no'.");
