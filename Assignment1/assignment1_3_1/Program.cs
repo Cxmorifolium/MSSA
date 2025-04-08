@@ -30,6 +30,14 @@ class Program {
             // Read User Input
             int area = Convert.ToInt32(Console.ReadLine());
 
+            // If user choose 4 first to not go through the width and height request
+            if (area == 4) 
+            {
+            programActive = false;
+            Console.WriteLine("So long~ Farewell~~ Adieu~~~");
+            break;
+            }
+
             Console.Write("Enter width: ");
             double width = Convert.ToDouble(Console.ReadLine());
 
@@ -55,11 +63,6 @@ class Program {
                     DrawRectangleOrSquare((int)width, (int)height);
                     break;
 
-                case 4: // Exit case
-                    programActive = false;
-                    Console.WriteLine("So long. Farewell. Adieu.");
-                    break;
-
                 default:
                     Console.WriteLine("Invalid choice.");
                     break;
@@ -80,7 +83,7 @@ class Program {
                     else if (response == "no")
                     {
                         programActive = false;
-                        Console.WriteLine("So long. Farewell. Adieu.");
+                        Console.WriteLine("So long~ Farewell~~ Adieu~~~");
                         break;
                     }
                     else
@@ -122,6 +125,8 @@ class Program {
     */
 
 // I hate for loops and triangles. i "height" j " stars per row"
+// https://www.youtube.com/watch?v=prYPVeD-l5c
+
     static void DrawRightTriangle(int height)
     {
         Console.WriteLine("If you label the height and width in your brain it's totally accurate");
