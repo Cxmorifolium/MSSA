@@ -22,7 +22,7 @@ class Program {
             // Write console to show natural number
             Console.Write(i + " ");
 
-            // Add each number
+            // Add each number to the previous
             sum += i;
 
         }
