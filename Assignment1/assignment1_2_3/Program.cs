@@ -18,11 +18,11 @@ class Program {
             Console.WriteLine(
                 "Welcome to the Calculator where you can only conduct math with two integers.\n" +
                 "Please select from the following:\n" +
-                "1. Addition\n" +
-                "2. Subtraction\n" +
-                "3. Multiplication\n" +
-                "4. Division\n" +
-                "5. Exit");
+                "\t1. Addition\n" +
+                "\t2. Subtraction\n" +
+                "\t3. Multiplication\n" +
+                "\t4. Division\n" +
+                "\t5. Exit");
 
             // Ask for input:
             string option = Console.ReadLine()!;
@@ -33,6 +33,8 @@ class Program {
                 Console.WriteLine("Goodbye!");
                 break; // Exit the loop
             }
+
+            Console.WriteLine(); // add line for space
 
             // Input numbers. Use double to handle decimal/negative inputs
             Console.Write("Enter the first number: ");
@@ -73,7 +75,7 @@ class Program {
                     break; // Exit inner loop and continue
                 } else if (response == "no") {
                     programActive = false;
-                    Console.WriteLine("Exiting program. Goodbye!");
+                    Console.WriteLine("Deactivating. Goodbye!");
                     break;
                 } else {
                     Console.WriteLine("Please respond with 'yes' or 'no'.");
