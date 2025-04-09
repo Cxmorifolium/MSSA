@@ -12,7 +12,7 @@ using System;
 
 class Program {
 
-    // Define Struct outside of main. If inside main, it is only avaliable within the main domain. 
+    // Define Struct outside of main. If inside main, it is only avaliable within the main domain.
     struct Coordinate
     {
         public double x;
