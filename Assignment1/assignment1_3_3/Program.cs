@@ -30,7 +30,7 @@ class Program {
         // Method created call it after above
         ElementEntry(elements);
 
-        // Display what values are stored; using foreach
+        // Display what values are stored; using foreach!!
         Console.WriteLine("The values store into the array are:");
         foreach (var item in elements)
                 {
@@ -46,7 +46,7 @@ class Program {
 
     }
     static void ElementEntry(double[] array) {
-        // Loop through array to get values from the user`
+        // Loop through array to get values from the user
         for (int i = 0; i < array.Length; i++) {
             // Ask user to enter their value
             Console.WriteLine($"Please enter a value for Element [{i}]: ");

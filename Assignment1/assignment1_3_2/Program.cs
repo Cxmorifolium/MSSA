@@ -92,7 +92,6 @@ class Program {
             6. Exists()
             7. Clear()
             8. Fill()
-
         */
 
     // Sort the strawhatPirates array

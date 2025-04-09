@@ -38,10 +38,10 @@ class Program {
             break;
             }
 
-            Console.Write("Enter width: ");
+            Console.Write("Enter the base (for triangle) or length: ");
             double width = Convert.ToDouble(Console.ReadLine());
 
-            Console.Write("Enter height: ");
+            Console.Write("Enter height (for triangle) or width: ");
             double height = Convert.ToDouble(Console.ReadLine());
 
 
@@ -50,7 +50,7 @@ class Program {
             {
                 case 1: // Triangle
                     Console.WriteLine($"The area of the triangle is {AreaFormula(width, height, area)}");
-                    DrawRightTriangle((int)height); // Cast if needed
+                    DrawRightTriangle((int)height); 
                     break;
 
                 case 2: // Square
