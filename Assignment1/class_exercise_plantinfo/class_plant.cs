@@ -19,4 +19,56 @@ class Plant {
     public string WateringFreq { get; set; }
 
 
+    // Preferably have a JSON of data but if not User Entry
+
+    public static Plant Create(string commonName, string scientificName, bool petSafe, 
+                               List<string> sunlightPref, string waterReq, string lifeCycle,
+                               List<string> origin, List<string> soilPref, string bloomSeason, 
+                               string growthRate, int maximumHeight, bool floweringOrNot,
+                               string hardinessZone, string wateringFreq)
+    {
+        return new Plant
+        {
+            CommonName = commonName,
+            ScientificName = scientificName,
+            PetSafe = petSafe,
+            SunlightPref = sunlightPref,
+            WaterReq = waterReq,
+            LifeCycle = lifeCycle,
+            Origin = origin,
+            SoilPref = soilPref,
+            BloomSeason = bloomSeason,
+            GrowthRate = growthRate,
+            MaximumHeight = maximumHeight,
+            FloweringOrNot = floweringOrNot,
+            HardinessZone = hardinessZone,
+            WateringFreq = wateringFreq
+        };
+    }
+
+    // Edit method to update existing plant's details. Does not need <return> value.
+    public void Edit(string commonName, string scientificName, bool petSafe, 
+                     List<string> sunlightPref, string waterReq, string lifeCycle,
+                     List<string> origin, List<string> soilPref, string bloomSeason, 
+                     string growthRate, int maximumHeight, bool floweringOrNot,
+                     string hardinessZone, string wateringFreq)
+
+    {
+        CommonName = commonName;
+        ScientificName = scientificName;
+        PetSafe = petSafe;
+        SunlightPref = sunlightPref;
+        WaterReq = waterReq;
+        LifeCycle = lifeCycle;
+        Origin = origin;
+        SoilPref = soilPref;
+        BloomSeason = bloomSeason;
+        GrowthRate = growthRate;
+        MaximumHeight = maximumHeight;
+        FloweringOrNot = floweringOrNot;
+        HardinessZone = hardinessZone;
+        WateringFreq = wateringFreq;
+    }
+
+    // Other method ideas? Maybe if user is searching for something??
 }
