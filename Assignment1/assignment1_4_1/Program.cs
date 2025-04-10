@@ -19,11 +19,19 @@ using System;
 class Program {
 
     // Define Struct outside of main. If inside main, it is only avaliable within the main domain.
-    // Class outside or inside main depending how you wanna use it. but im lazy. 
+    // Class outside or inside main depending how accessible you want it. but im lazy.
     class Coordinate
     {
-        public double x;
-        public double y;
+        private double x;
+        private double y;
+        public double X {  
+            get { return x; } 
+            set { x = value; } 
+        }
+        public double Y {  
+            get { return y; } 
+            set { y = value; } 
+        }
     }
 
         static void Main( string[] args ) {
@@ -39,22 +47,21 @@ class Program {
                 Console.WriteLine($"Please enter the first Y coordinate: ");
                 double y1 = Convert.ToDouble(Console.ReadLine());
 
-                Coordinate P1 = new Coordinate {x = x1, y = y1};
+                Coordinate P1 = new Coordinate {X = x1, Y = y1};
 
                 Console.WriteLine();
-
                 
                 Console.WriteLine($"Please enter the second X coordinate: ");
                 double x2 = Convert.ToDouble(Console.ReadLine());
                 Console.WriteLine($"Please enter the second Y coordinate: ");
                 double y2 = Convert.ToDouble(Console.ReadLine());
 
-                Coordinate P2 = new Coordinate {x = x2, y = y2};
+                Coordinate P2 = new Coordinate {X = x2, Y = y2};
 
-                if (P1.x == P2.x) {
+                if (P1.X == P2.X) {
                     Console.WriteLine("The X coordinates are on the same axis!");
                 }
-                else if (P1.x > P2.x) {
+                else if (P1.X > P2.X) {
                     Console.WriteLine($"Point 2 is on the left side of the axis of Point 1");
 
                 }
@@ -67,7 +74,7 @@ class Program {
                     input = Console.ReadLine()?.ToLower() ?? "no"; // Warning CS8602 in case of null, execute no.
 
 
-                } while (input != "yes" && input != "no");
+                } while (input != "yes" && input != "no"); // doing something new !=
 
                 programActive = (input == "yes");
             }
