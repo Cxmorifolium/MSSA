@@ -5,6 +5,12 @@ by comparing the x xoordinates. ( if p1.x is more than p2.x , it is to the right
 
 Struct: https://www.tutorialsteacher.com/csharp/csharp-struct
 
+Can change Struct to Class
+
+"A struct is a value type while a class is a reference type. 
+Value types contain their data directly on the stack, 
+while reference types store a reference to an object containing the data on the heap."
+
 Let's try do-while
 */
 
@@ -13,7 +19,8 @@ using System;
 class Program {
 
     // Define Struct outside of main. If inside main, it is only avaliable within the main domain.
-    struct Coordinate
+    // Class outside or inside main depending how you wanna use it. but im lazy. 
+    class Coordinate
     {
         public double x;
         public double y;
