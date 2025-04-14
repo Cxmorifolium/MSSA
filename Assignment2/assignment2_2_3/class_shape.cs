@@ -16,7 +16,7 @@ abstract class Shape {
 
 class Circle : Shape {
     
-    public int Radius { get; set; }
+    public double Radius { get; set; }
 
     public override double CalculateArea() {
 
