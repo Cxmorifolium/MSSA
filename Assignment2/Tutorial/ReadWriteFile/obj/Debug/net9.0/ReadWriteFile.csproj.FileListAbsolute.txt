@@ -1,0 +1,15 @@
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment2\Tutorial\ReadWriteFile\bin\Debug\net9.0\ReadWriteFile.exe
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment2\Tutorial\ReadWriteFile\bin\Debug\net9.0\ReadWriteFile.deps.json
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment2\Tutorial\ReadWriteFile\bin\Debug\net9.0\ReadWriteFile.runtimeconfig.json
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment2\Tutorial\ReadWriteFile\bin\Debug\net9.0\ReadWriteFile.dll
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment2\Tutorial\ReadWriteFile\bin\Debug\net9.0\ReadWriteFile.pdb
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment2\Tutorial\ReadWriteFile\obj\Debug\net9.0\ReadWriteFile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment2\Tutorial\ReadWriteFile\obj\Debug\net9.0\ReadWriteFile.AssemblyInfoInputs.cache
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment2\Tutorial\ReadWriteFile\obj\Debug\net9.0\ReadWriteFile.AssemblyInfo.cs
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment2\Tutorial\ReadWriteFile\obj\Debug\net9.0\ReadWriteFile.csproj.CoreCompileInputs.cache
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment2\Tutorial\ReadWriteFile\obj\Debug\net9.0\ReadWriteFile.sourcelink.json
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment2\Tutorial\ReadWriteFile\obj\Debug\net9.0\ReadWriteFile.dll
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment2\Tutorial\ReadWriteFile\obj\Debug\net9.0\refint\ReadWriteFile.dll
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment2\Tutorial\ReadWriteFile\obj\Debug\net9.0\ReadWriteFile.pdb
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment2\Tutorial\ReadWriteFile\obj\Debug\net9.0\ReadWriteFile.genruntimeconfig.cache
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment2\Tutorial\ReadWriteFile\obj\Debug\net9.0\ref\ReadWriteFile.dll

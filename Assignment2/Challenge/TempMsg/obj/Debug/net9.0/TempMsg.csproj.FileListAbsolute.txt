@@ -1,0 +1,15 @@
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment2\Challenge\TempMsg\bin\Debug\net9.0\TempMsg.exe
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment2\Challenge\TempMsg\bin\Debug\net9.0\TempMsg.deps.json
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment2\Challenge\TempMsg\bin\Debug\net9.0\TempMsg.runtimeconfig.json
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment2\Challenge\TempMsg\bin\Debug\net9.0\TempMsg.dll
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment2\Challenge\TempMsg\bin\Debug\net9.0\TempMsg.pdb
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment2\Challenge\TempMsg\obj\Debug\net9.0\TempMsg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment2\Challenge\TempMsg\obj\Debug\net9.0\TempMsg.AssemblyInfoInputs.cache
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment2\Challenge\TempMsg\obj\Debug\net9.0\TempMsg.AssemblyInfo.cs
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment2\Challenge\TempMsg\obj\Debug\net9.0\TempMsg.csproj.CoreCompileInputs.cache
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment2\Challenge\TempMsg\obj\Debug\net9.0\TempMsg.sourcelink.json
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment2\Challenge\TempMsg\obj\Debug\net9.0\TempMsg.dll
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment2\Challenge\TempMsg\obj\Debug\net9.0\refint\TempMsg.dll
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment2\Challenge\TempMsg\obj\Debug\net9.0\TempMsg.pdb
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment2\Challenge\TempMsg\obj\Debug\net9.0\TempMsg.genruntimeconfig.cache
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment2\Challenge\TempMsg\obj\Debug\net9.0\ref\TempMsg.dll
