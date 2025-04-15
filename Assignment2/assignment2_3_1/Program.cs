@@ -24,19 +24,27 @@ class Program {
         // Tab-Seperated String for text columns
         string columns = $"{fullName}\t{personAge}\t{personAddress}";
 
-        using (StreamWriter sw = dummyData.CreateText())
-        {
-            sw.WriteLine(columns); 
-        }
-
-        // Read text and output it
-        using (StreamReader sr = dummyData.OpenText()) 
-        {
-            string? s;
-            while ((s = sr.ReadLine()) != null) 
+        // try catch for data validation
+        // using ensures streamwriter/reader is disposed properly.
+        try {
+            using (StreamWriter sw = dummyData.CreateText())
             {
-                Console.WriteLine(s);
+                sw.WriteLine(columns); 
             }
+
+            // Read text and output it
+            using (StreamReader sr = dummyData.OpenText()) 
+            {
+                string? s;
+                while ((s = sr.ReadLine()) != null) 
+                {
+                    Console.WriteLine(s);
+                }
+            }
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine($"Oops! Something went wrong: {e.Message}");
         }
     }
 }
