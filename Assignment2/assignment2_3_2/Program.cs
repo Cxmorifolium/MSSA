@@ -7,13 +7,13 @@ class Program {
     static void Main(string[] args) {
 
         // Prompt for bill total
-        Console.WriteLine($"Enter your total bill: {NumberFormatInfo.CurrentInfo.CurrencySymbol}");
+        Console.Write($"Enter your total bill: $");
 
         // Parse the input string to decimal 
         decimal billTotal = Convert.ToDecimal(Console.ReadLine());
 
         // Prompt for tip percentage
-        Console.WriteLine("How much would you like to tip?");
+        Console.Write("\nHow much would you like to tip percentwise?: ");
         decimal tipInput = Convert.ToDecimal(Console.ReadLine());
 
         // Calculate total tip
@@ -23,7 +23,9 @@ class Program {
         decimal grandTotal = billTotal + totalTip;
 
         // Output the grand total
-        Console.WriteLine($"Your grand total is: {NumberFormatInfo.CurrentInfo.CurrencySymbol}{grandTotal:F2}");
+        Console.WriteLine($"\nTip Percent: {tipInput/100m:P2}"); //P0 for practice but not necessary
+        Console.WriteLine($"Tip Amount: {totalTip:C2}"); //C2 also for practice. currency decimal place of 2 "C2"
+        Console.WriteLine($"Your Grand Total: {grandTotal:C2}");
     }
 }
 
