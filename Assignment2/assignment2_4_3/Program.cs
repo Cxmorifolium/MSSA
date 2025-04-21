@@ -88,6 +88,8 @@ class Program {
             (< 0, < 0) => $"The coordinate point ({x}, {y}) lies in the Third quadrant.",
             (> 0, < 0) => $"The coordinate point ({x}, {y}) lies in the Fourth quadrant.",
             (0, 0) => "The coordinate point lies at the Origin.",
+            (_, 0) => $"The coordinate point ({x}, {y}) lies on the X-axis.",
+            (0, _) => $"The coordinate point ({x}, {y}) lies on the Y-axis.",
             _ => "The coordinate point has an unrecognized or special value."
         };
         
@@ -96,3 +98,5 @@ class Program {
     }
 
 }
+
+// doesn't handle in appropriate variables
