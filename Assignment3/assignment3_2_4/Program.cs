@@ -12,17 +12,24 @@ using System;
 
 class Program 
 {
-    static void Main(string[] args) 
+    static void Main(string[] args)
     {
-        Console.WriteLine("Please enter 4 numbers follow by a space: ");
+        Console.WriteLine("Please enter 4 numbers followed by a space: ");
         string input = Console.ReadLine();
 
         string[] parts = input.Split(' ', StringSplitOptions.RemoveEmptyEntries);
-        double[] numbers = parts.Select(part => double.Parse(part)).ToArray(); // => replaces FOREACH hehehe learning something new
+        double[] numbers = parts.Select(part => double.Parse(part)).ToArray(); // hehehe another new annotation "foreach"
 
-        double sum = numbers.Sum();
-        double average = numbers.Average();
+        CalculateTotalAndAverage(out double sum, out double average, numbers);
 
         Console.WriteLine($"The Sum of the numbers is {sum} and the average is {average}");
     }
+
+    static void CalculateTotalAndAverage(out double total, out double average, params double[] numbers)
+    {
+        total = numbers.Sum();
+        average = numbers.Average();
+    }
 }
+
+// out is like return

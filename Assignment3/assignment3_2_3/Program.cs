@@ -12,9 +12,9 @@ class Circle
         Radius = radius;
     }
 
-    public double Area => Math.PI * Radius * Radius;
+    public double Area => Math.PI * Radius * Radius; // hehehehe new notation >:D
 
-    public static double operator +(Circle c1, Circle c2) => c1.Area + c2.Area;
+    public static double operator +(Circle c1, Circle c2) => c1.Area + c2.Area; 
 
 
     public static double operator -(Circle c1, Circle c2) => c1.Area - c2.Area;

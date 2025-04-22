@@ -11,37 +11,22 @@ If the item is not present, return -1.
 using System;
 
 class Program {
-    // // Example Execution
-    // static void Main(string[] args) 
-    // {
-    //     int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-        
-    //     Console.WriteLine("Enter a number to search for: ");
-    //     int searchVal = Convert.ToInt32(Console.ReadLine());
-        
-    //     int index = ItemSearch(arr, searchVal);
-        
-    //     if (index != -1)
-    //         {
-    //             Console.WriteLine($"Value {searchVal} found at index {index}");
-    //         }
-    //         else
-    //         {
-    //             Console.WriteLine($"Value {searchVal} not found.");
-    //         }
-
-    // }
-
-    // Said function i totally stole even though I really wanted to use the built in function
-    static int ItemSearch(int[] arr, int val)
-    {
-        for(int i = 0; i < arr.Length; i++)
-            if (arr[i] == val)
-                return i;
-        return -1;
-    }
     
-}
+    static void Main(string[] args) 
+    {
+        // Test Case Example
+        Console.WriteLine(Search(new int[] { 1, 5, 3 }, 5));
+        Console.WriteLine(Search(new int[] { 9, 8, 3 }, 3));
+        Console.WriteLine(Search(new int[] { 1, 2, 3 }, 4)); 
 
-// Built in method
-// int index = Array.IndexOf(arr, searchVal);
+        // Said function I totally stole even though I really wanted to use the built in function
+        static int Search(int[] arr, int val)
+        {
+            for(int i = 0; i < arr.Length; i++)
+                if (arr[i] == val)
+                    return i;
+            return -1;
+        }
+    
+    }
+}

@@ -1,0 +1,15 @@
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment3\Challenge\SumInteger\obj\Debug\net9.0\SumInteger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment3\Challenge\SumInteger\obj\Debug\net9.0\SumInteger.AssemblyInfoInputs.cache
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment3\Challenge\SumInteger\obj\Debug\net9.0\SumInteger.AssemblyInfo.cs
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment3\Challenge\SumInteger\obj\Debug\net9.0\SumInteger.csproj.CoreCompileInputs.cache
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment3\Challenge\SumInteger\obj\Debug\net9.0\SumInteger.sourcelink.json
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment3\Challenge\SumInteger\bin\Debug\net9.0\SumInteger.exe
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment3\Challenge\SumInteger\bin\Debug\net9.0\SumInteger.deps.json
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment3\Challenge\SumInteger\bin\Debug\net9.0\SumInteger.runtimeconfig.json
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment3\Challenge\SumInteger\bin\Debug\net9.0\SumInteger.dll
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment3\Challenge\SumInteger\bin\Debug\net9.0\SumInteger.pdb
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment3\Challenge\SumInteger\obj\Debug\net9.0\SumInteger.dll
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment3\Challenge\SumInteger\obj\Debug\net9.0\refint\SumInteger.dll
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment3\Challenge\SumInteger\obj\Debug\net9.0\SumInteger.pdb
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment3\Challenge\SumInteger\obj\Debug\net9.0\SumInteger.genruntimeconfig.cache
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment3\Challenge\SumInteger\obj\Debug\net9.0\ref\SumInteger.dll

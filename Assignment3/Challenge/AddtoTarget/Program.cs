@@ -1,6 +1,9 @@
-﻿
+﻿/*
 
-static int[] TwoSum(int[] nums, int target) {
+*/
+
+static int[] TwoSum(int[] nums, int target) 
+{
        /* int TwoSum recieves two array nums and target as parameter 
        Method: Use dictionary
         Key = number itself, Value = index in array
@@ -23,4 +26,4 @@ static int[] TwoSum(int[] nums, int target) {
 
        // return empty if no solution found
        return new int[] {};       
-    }
+}

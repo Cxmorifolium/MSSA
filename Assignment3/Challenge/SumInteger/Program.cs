@@ -7,15 +7,38 @@
 /// SumDigitsInString("L0r3m.1p5um") → 9
 /// SumDigitsInString("") → 0
 
-Console.Write("Input phrase: ");
-Console.WriteLine(SumDigitsInString(Console.ReadLine()));
+using System;
 
-int SumDigitsInString(string input)
-{
-    int sum = 0;
-    foreach (char c in input)
+class Program {
+    static void Main(string[] args) 
     {
-        if(char.IsDigit(c)) sum=sum+(Convert.ToInt32(c)-48);
+        Console.Write("Input phrase: ");
+        Console.WriteLine(SumDigitsInString(Console.ReadLine()));
     }
-    return sum;
+
+    static int SumDigitsInString(string input)
+    {
+        int sum = 0;
+        foreach (char c in input)
+        {
+            if (c >= '0' && c <= '9')
+            {
+                sum += c - '0'; // convert char digit to int
+            }
+        }
+        return sum;
+    }
 }
+
+
+
+
+// int SumDigitsInString(string input)
+// {
+//     int sum = 0;
+//     foreach (char c in input)
+//     {
+//         if(char.IsDigit(c)) sum=sum+(Convert.ToInt32(c)-48); // 48 is the ASCII Values
+//     }
+//     return sum;
+// }

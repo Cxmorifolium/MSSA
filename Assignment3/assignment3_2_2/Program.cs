@@ -67,11 +67,17 @@ class Program
         int size = matrix.GetLength(0);
         for (int i = 0; i < size; i++)
         {
-            Console.WriteLine();
+            // Start each row with a vertical bar
+            Console.Write("|");
+
             for (int j = 0; j < size; j++)
             {
-                Console.Write($"{matrix[i, j]}\t");
+                // Print the matrix element followed by a vertical bar
+                Console.Write($" {matrix[i, j]} |");
             }
+
+            // Move to the next line after printing each row
+            Console.WriteLine();
         }
     }
 }

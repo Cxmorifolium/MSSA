@@ -8,18 +8,21 @@ class Program
 
     {
 
-        int[,] twoD = {  {1, 2, 3 }, 
-                         {4, 5, 6 } 
-                      };
-        
+        int[,] twoD = { 
+            {1, 2, 3}, 
+            {4, 5, 6} 
+        };
+
         for (int i = 0; i < twoD.GetLength(0); i++) // rows
         {
+            Console.Write("| "); // Start each row with a bar and space
             for (int j = 0; j < twoD.GetLength(1); j++) // columns
             {
-                Console.Write(twoD[i, j] + " ");
+                Console.Write(twoD[i, j] + " | "); // Print each element with a bar
             }
-            Console.WriteLine(); // new line
+            Console.WriteLine(); // Move to the next line after printing a row
         }
+
 
     }
 

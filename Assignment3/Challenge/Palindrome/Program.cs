@@ -7,7 +7,7 @@ class Program
 {
     static void Main(string[] args) 
     {
-        string word = "racecar"; // You can change this to any word
+        string word = "racecar"; 
         
         bool isPalindrome = IsPalindrome(word);
         
@@ -27,7 +27,7 @@ class Program
 
         for (int i = 0; i < length / 2; i++)
         {
-            int j = length - 1 - i; // Corrected formula
+            int j = length - 1 - i; 
 
             if (input[i] != input[j])
             {
