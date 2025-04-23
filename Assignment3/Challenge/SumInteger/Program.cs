@@ -23,22 +23,19 @@ class Program {
         {
             if (c >= '0' && c <= '9')
             {
-                sum += c - '0'; // convert char digit to int
+                sum += c - '0';
             }
         }
         return sum;
     }
+
+    // static int SumDigitsInString(string input)
+    // {
+    //     int sum = 0;
+    //     foreach (char c in input)
+    //     {
+    //         if(char.IsDigit(c)) sum=sum+(Convert.ToInt32(c)-48); // 48 is the ASCII Values
+    //     }
+    //     return sum;
+    // }
 }
-
-
-
-
-// int SumDigitsInString(string input)
-// {
-//     int sum = 0;
-//     foreach (char c in input)
-//     {
-//         if(char.IsDigit(c)) sum=sum+(Convert.ToInt32(c)-48); // 48 is the ASCII Values
-//     }
-//     return sum;
-// }

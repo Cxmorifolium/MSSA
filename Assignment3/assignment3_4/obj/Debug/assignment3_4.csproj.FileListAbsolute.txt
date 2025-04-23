@@ -1,0 +1,10 @@
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment3\assignment3_4\obj\Debug\assignment3_4.csproj.AssemblyReference.cache
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment3\assignment3_4\obj\Debug\assignment3_4.Form1.resources
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment3\assignment3_4\obj\Debug\assignment3_4.Properties.Resources.resources
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment3\assignment3_4\obj\Debug\assignment3_4.csproj.GenerateResource.cache
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment3\assignment3_4\obj\Debug\assignment3_4.csproj.CoreCompileInputs.cache
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment3\assignment3_4\bin\Debug\assignment3_4.exe.config
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment3\assignment3_4\bin\Debug\assignment3_4.exe
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment3\assignment3_4\bin\Debug\assignment3_4.pdb
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment3\assignment3_4\obj\Debug\assignment3_4.exe
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment3\assignment3_4\obj\Debug\assignment3_4.pdb

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lemon\\OneDrive\\Documents\\CsharpProjects\\MSSA\\Assignment3\\Challenge\\AddtoTarget\\AddtoTarget.csproj": {}
+    "C:\\Users\\lemon\\OneDrive\\Documents\\CsharpProjects\\MSSA\\Assignment3\\Challenge\\AddToTarget\\AddtoTarget.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lemon\\OneDrive\\Documents\\CsharpProjects\\MSSA\\Assignment3\\Challenge\\AddtoTarget\\AddtoTarget.csproj": {
+    "C:\\Users\\lemon\\OneDrive\\Documents\\CsharpProjects\\MSSA\\Assignment3\\Challenge\\AddToTarget\\AddtoTarget.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lemon\\OneDrive\\Documents\\CsharpProjects\\MSSA\\Assignment3\\Challenge\\AddtoTarget\\AddtoTarget.csproj",
+        "projectUniqueName": "C:\\Users\\lemon\\OneDrive\\Documents\\CsharpProjects\\MSSA\\Assignment3\\Challenge\\AddToTarget\\AddtoTarget.csproj",
         "projectName": "AddtoTarget",
-        "projectPath": "C:\\Users\\lemon\\OneDrive\\Documents\\CsharpProjects\\MSSA\\Assignment3\\Challenge\\AddtoTarget\\AddtoTarget.csproj",
+        "projectPath": "C:\\Users\\lemon\\OneDrive\\Documents\\CsharpProjects\\MSSA\\Assignment3\\Challenge\\AddToTarget\\AddtoTarget.csproj",
         "packagesPath": "C:\\Users\\lemon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lemon\\OneDrive\\Documents\\CsharpProjects\\MSSA\\Assignment3\\Challenge\\AddtoTarget\\obj\\",
+        "outputPath": "C:\\Users\\lemon\\OneDrive\\Documents\\CsharpProjects\\MSSA\\Assignment3\\Challenge\\AddToTarget\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,0 +1,58 @@
+[
+  {
+    "StudentId": 1,
+    "FirstName": "Anby",
+    "LastName": "Demara",
+    "Address": "New Eridu",
+    "MonthOfAdmission": 5,
+    "Grade": "B"
+  },
+  {
+    "StudentId": 2,
+    "FirstName": "Jane",
+    "LastName": "Doe",
+    "Address": "New Eridu",
+    "MonthOfAdmission": 8,
+    "Grade": "A"
+  },
+  {
+    "StudentId": 3,
+    "FirstName": "Zhu",
+    "LastName": "Yuan",
+    "Address": "New Eridu",
+    "MonthOfAdmission": 7,
+    "Grade": "A"
+  },
+  {
+    "StudentId": 4,
+    "FirstName": "Qing",
+    "LastName": "Yi",
+    "Address": "New Eridu",
+    "MonthOfAdmission": 0,
+    "Grade": "A"
+  },
+  {
+    "StudentId": 5,
+    "FirstName": "Billy",
+    "LastName": "Kid",
+    "Address": "New Eridu",
+    "MonthOfAdmission": 0,
+    "Grade": "D"
+  },
+  {
+    "StudentId": 6,
+    "FirstName": "Nekomiya",
+    "LastName": "Mana",
+    "Address": "New Eridu",
+    "MonthOfAdmission": 0,
+    "Grade": "F"
+  },
+  {
+    "StudentId": 7,
+    "FirstName": "Corin",
+    "LastName": "Wickes",
+    "Address": "New Eridu",
+    "MonthOfAdmission": 0,
+    "Grade": "A"
+  }
+]

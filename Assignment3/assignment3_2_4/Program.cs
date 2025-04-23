@@ -18,7 +18,7 @@ class Program
         string input = Console.ReadLine();
 
         string[] parts = input.Split(' ', StringSplitOptions.RemoveEmptyEntries);
-        double[] numbers = parts.Select(part => double.Parse(part)).ToArray(); // hehehe another new annotation "foreach"
+        double[] numbers = parts.Select(part => double.Parse(part)).ToArray(); // hehehe another new annotation "looping through iteration"
 
         CalculateTotalAndAverage(out double sum, out double average, numbers);
 

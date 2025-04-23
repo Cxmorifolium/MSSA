@@ -1,0 +1,15 @@
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment3\Challenge\AddToTarget\bin\Debug\net9.0\AddtoTarget.exe
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment3\Challenge\AddToTarget\bin\Debug\net9.0\AddtoTarget.deps.json
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment3\Challenge\AddToTarget\bin\Debug\net9.0\AddtoTarget.runtimeconfig.json
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment3\Challenge\AddToTarget\bin\Debug\net9.0\AddtoTarget.dll
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment3\Challenge\AddToTarget\bin\Debug\net9.0\AddtoTarget.pdb
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment3\Challenge\AddToTarget\obj\Debug\net9.0\AddtoTarget.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment3\Challenge\AddToTarget\obj\Debug\net9.0\AddtoTarget.AssemblyInfoInputs.cache
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment3\Challenge\AddToTarget\obj\Debug\net9.0\AddtoTarget.AssemblyInfo.cs
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment3\Challenge\AddToTarget\obj\Debug\net9.0\AddtoTarget.csproj.CoreCompileInputs.cache
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment3\Challenge\AddToTarget\obj\Debug\net9.0\AddtoTarget.sourcelink.json
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment3\Challenge\AddToTarget\obj\Debug\net9.0\AddtoTarget.dll
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment3\Challenge\AddToTarget\obj\Debug\net9.0\refint\AddtoTarget.dll
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment3\Challenge\AddToTarget\obj\Debug\net9.0\AddtoTarget.pdb
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment3\Challenge\AddToTarget\obj\Debug\net9.0\AddtoTarget.genruntimeconfig.cache
+C:\Users\lemon\OneDrive\Documents\CsharpProjects\MSSA\Assignment3\Challenge\AddToTarget\obj\Debug\net9.0\ref\AddtoTarget.dll

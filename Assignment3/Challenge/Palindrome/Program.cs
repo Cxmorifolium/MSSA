@@ -21,6 +21,7 @@ class Program
         }
     }
 
+    // Method
     static bool IsPalindrome(string input)
     {
         int length = input.Length;
