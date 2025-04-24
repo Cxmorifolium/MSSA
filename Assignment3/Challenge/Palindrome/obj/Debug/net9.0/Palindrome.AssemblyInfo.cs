@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Palindrome")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7db6181c11aa6e9ff04b6f650ece3d1ff382a2e0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f994ce17419638ac1f285cab7351f84423afc89")]
 [assembly: System.Reflection.AssemblyProductAttribute("Palindrome")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Palindrome")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

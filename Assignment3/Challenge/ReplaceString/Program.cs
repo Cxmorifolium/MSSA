@@ -25,7 +25,7 @@ class Program
 {
     static void Main()
     {
-        string input = "ABCDABCD"; // example input
+        string input = "ABCDABCDSDE"; // example input
         string result = ReduceString(input);
         Console.WriteLine("Reduced string: " + result);
         Console.WriteLine("Minimal length: " + result.Length);
@@ -33,17 +33,17 @@ class Program
 
     static string ReduceString(string s)
     {
-        bool changed;
+        bool reduce;
         do
         {
-            changed = false;
-            string newS = s.Replace("AB", "").Replace("CD", "");
-            if (newS != s)
+            reduce = false;
+            string reducedString = s.Replace("AB", "").Replace("CD", "");
+            if (reducedString != s)
             {
-                changed = true;
-                s = newS;
+                reduce = true;
+                s = reducedString;
             }
-        } while (changed);
+        } while (reduce);
         
         return s;
     }

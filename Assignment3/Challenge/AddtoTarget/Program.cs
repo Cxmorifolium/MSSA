@@ -27,6 +27,7 @@ class Program {
             Console.WriteLine("No solution found.");
         }
     }
+    
     static int[] TwoSum(int[] nums, int target) 
     {
         /* int TwoSum recieves two array nums and target as parameter 

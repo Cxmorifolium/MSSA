@@ -8,19 +8,16 @@ namespace assignment3_4
 {
     internal class Beverage
     {
-        public enum NutritionalContent
-        {
-            Calories, Fat, Carbs, Protein
-        }
-
         public string BevName { get; set; }
-        public int TemperatureDegF {  get; set; }
+        public bool Temperature { get; set; }  // true = Hot, false = Cold
         public double Price { get; set; }
-        public  NutritionalContent Macros { get; set; }
-        public string PackageType { get; set; }
-        public double SizeOz { get; set; }
-        public DateTime ExpirationDate { get; set; }
+        public string Brand { get; set; }
 
-
+        // Return Value for Bool
+        public string TemperatureString
+        {
+            get { return Temperature ? "Hot" : "Cold"; }
+        }
     }
+
 }

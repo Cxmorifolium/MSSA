@@ -2,12 +2,15 @@
 // Assume that string may consist only of lower-case letters.
 
 using System;
+// using System.Linq;
 
 class Program 
 {
     static void Main(string[] args) 
     {
-        string word = "racecar"; 
+        Console.WriteLine("Please Enter a word: ");
+        string word = Console.ReadLine();
+        word = word.ToLower();
         
         bool isPalindrome = IsPalindrome(word);
         
@@ -30,12 +33,17 @@ class Program
         {
             int j = length - 1 - i; 
 
-            if (input[i] != input[j])
-            {
-                return false;
-            }
+            if (input[i] != input[j]) return false;
+        
         }
 
         return true;
     }
+
+    // static bool IsPalindrome(string input)
+    // {
+    //     string reversed = new string(input.Reverse().ToArray());
+    //     return input == reversed;
+    // }
+
 }
