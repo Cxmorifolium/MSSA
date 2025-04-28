@@ -1,0 +1,44 @@
+{
+  "Lena Warrick": {
+    "FirstName": "Lena",
+    "LastName": "Warrick",
+    "MobilePhone": "+1-555-302-1942",
+    "WorkPhone": "+1-555-678-1023",
+    "Address": "102 Maplewood Drive, Willow Creek, NY 10011"
+  },
+  "Marcus Thorne": {
+    "FirstName": "Marcus",
+    "LastName": "Thorne",
+    "MobilePhone": "+1-555-981-5541",
+    "WorkPhone": "+1-555-673-2245",
+    "Address": "88 Meadow Lane, Fairhaven, CA 90210"
+  },
+  "Isabella Vance": {
+    "FirstName": "Isabella",
+    "LastName": "Vance",
+    "MobilePhone": "+1-555-432-7778",
+    "WorkPhone": "+1-555-321-4455",
+    "Address": "7 Sunset Boulevard, Crestwood, TX 73301"
+  },
+  "Dorian Mills": {
+    "FirstName": "Dorian",
+    "LastName": "Mills",
+    "MobilePhone": "+1-555-217-9987",
+    "WorkPhone": "+1-555-890-5543",
+    "Address": "215 Oceanview Terrace, Seaside, FL 32459"
+  },
+  "Amara Holloway": {
+    "FirstName": "Amara",
+    "LastName": "Holloway",
+    "MobilePhone": "+1-555-663-2089",
+    "WorkPhone": "+1-555-234-1189",
+    "Address": "12 Birchwood Court, Stonehill, IL 60614"
+  },
+  "Sherlock Holmes": {
+    "FirstName": "Sherlock",
+    "LastName": "Holmes",
+    "MobilePhone": "+44-123-456-2134",
+    "WorkPhone": "+44-123-434-2342",
+    "Address": "221B Baker Street, London, UK"
+  }
+}
