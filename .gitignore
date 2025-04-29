@@ -1,0 +1,59 @@
+# Build folders
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+
+# Rider project files
+.idea/
+
+# Visual Studio user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio working folders
+.vs/
+
+# NuGet packages
+*.nupkg
+packages/
+*.snupkg
+
+# Project lock files
+project.lock.json
+project.assets.json
+
+# Build results and logs
+*.log
+*.tmp
+*.bak
+
+# Publish output
+**/publish/
+
+# OS-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Optional: Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Optional: Entity Framework Migrations history
+Migrations/
+
+# Local test results
+TestResults/
+*.vspscc
+*.vssscc
+
+# Others
+*.dbmdl
+*.jfm
