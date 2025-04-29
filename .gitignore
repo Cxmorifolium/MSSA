@@ -2,7 +2,9 @@
 **/bin/
 **/obj/
 **/Debug/
+**/.vs/
 **/Release/
+packages/
 
 # Rider project files
 .idea/
@@ -22,8 +24,8 @@ packages/
 *.snupkg
 
 # Project lock files
-project.lock.json
-project.assets.json
+# project.lock.json
+# project.assets.json
 
 # Build results and logs
 *.log
