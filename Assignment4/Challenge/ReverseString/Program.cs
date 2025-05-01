@@ -22,7 +22,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        char[] arr = { 'H', 'E', 'L', 'M', 'N', 'P' };
+        char[] arr = { 'H', 'E', 'L', 'L', 'O' };
         ReverseArray(arr);
 
         foreach (char c in arr)
@@ -30,20 +30,37 @@ class Program
             Console.Write(c + " ");
         }
     }
-
+    
+    // Two pointer
     static void ReverseArray(char[] arr)
     {
-        int left = 0; //index 0!
-        int right = arr.Length - 1; // last index!
+        int left = 0; // Index 0!
+        int right = arr.Length - 1; // Last index!
 
         while (left < right)
         {
-            char temp = arr[left];
-            arr[left] = arr[right];
-            arr[right] = temp;
+            char temp = arr[left]; // Temp array to store
+            arr[left] = arr[right]; // Left gets copied to right
+            arr[right] = temp; // Left is now temp stored in right
+            
+            // Loop continues until pointers are equal, moving outward to center
 
-            left++;
-            right--;
+            left++; // Move one step to right
+            right--; // Move one step to left
         }
     }
+
+    // // One pointer
+    // static char[] ReverseArray(char[] s)
+    // {
+    //     char temp;
+    //     for (int i = 0; i < s.Length / 2; i++)
+    //     {
+    //         temp = s[i];
+    //         s[i] = s[s.Length - 1 - i];
+    //         s[s.Length - 1 - i] = temp;
+    //     }
+    //     return s;
+    // }
+
 }

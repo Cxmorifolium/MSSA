@@ -5,22 +5,46 @@ using System;
 
 class Program {
     static void Main(string[] args) {
-        int testCase = 342;
-        Console.WriteLine($"{testCase}");
-        Check3(testCase);
+        int num = 342;
+        CheckFor3(num);
 
     }
 
-    static void Check3(double num) 
+    // static void CheckFor3(double num)
+    // {
+    //     string str = num.ToString();
+    //     bool containsThree = false;
+
+    //     foreach (char c in str)
+    //     {
+    //         if (c == '3') 
+    //         {
+    //             containsThree = true;
+    //             break;
+    //         }
+    //     }
+
+    //     Console.WriteLine($"CheckFor3 {num} -> {containsThree}");
+    // }
+
+
+    static void CheckFor3(int num)
     {
-        string str = num.ToString();
+        int wholeNum = Math.Abs(num); // negate negatives
+        bool containsThree = false;
 
-        foreach (char c in str) {
-            if (c == '3') {
-                Console.WriteLine("It contains the number 3!");
-                return;
+        while (wholeNum > 0)
+        {
+            int digit = wholeNum % 10;
+            if (digit == 3)
+            {
+                containsThree = true;
+                break; // no need to continue checking once we've found a 3
             }
+            wholeNum /= 10;
         }
-        Console.WriteLine("It does not contain the number 3.");
+
+        Console.WriteLine($"CheckFor3 {num} -> {containsThree}");
     }
+
 }
