@@ -13,7 +13,7 @@ class Program
     static void Main(string[] args)
     {
         int num = 1234;
-        Console.WriteLine($"{num} = {AddDigits(num)}");
+        Console.WriteLine($"Num: {num} = Sum: {AddDigits(num)}");
 
     }
 

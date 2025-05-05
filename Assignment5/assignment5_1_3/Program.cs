@@ -18,7 +18,8 @@ class Program
     static void Main(string[] args)
     {
         int[] num = { 1, 2, 3, 3,};
-        Console.WriteLine($"num[1,2,3,3]: {UniqueValue(num)}");
+        int[] num2 = { 1, 2, 3, 4};
+        Console.WriteLine($"num[1,2,3,3]: {UniqueValue(num)}\nnum[1,2,3,4]: {UniqueValue(num2)}");
     }
 
     // // This method checks elements against each other to see if they match
@@ -41,24 +42,24 @@ class Program
     // }
 
     static bool UniqueValue(int[] num)
-{
-    // Create dictionary 
-    Dictionary<int, bool> numbers = new Dictionary<int, bool>();
-
-    // Loop through the array
-    for (int i = 0; i < num.Length; i++)
     {
-        if (numbers.ContainsKey(num[i])) // Check if number have been seen
-        {
-            return true; // Return true if duplicate found
-        }
-        else
-        {
-            numbers[num[i]] = true; // Mark number as seen if we haven't seen it before
-        }
-    }
+        // Create dictionary 
+        Dictionary<int, bool> numbers = new Dictionary<int, bool>();
 
-    return false; // No duplicates found
+        // Loop through the array
+        for (int i = 0; i < num.Length; i++)
+        {
+            if (numbers.ContainsKey(num[i])) // Check if number have been seen
+            {
+                return true; // Return true if duplicate found
+            }
+            else
+            {
+                numbers[num[i]] = true; // Mark number as seen if we haven't seen it before
+            }
+        }
+
+        return false; // No duplicates found
     }
 
 }
