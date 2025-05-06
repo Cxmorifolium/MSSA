@@ -27,6 +27,13 @@ class Program
             n = n / 10; // remove the last digit
         }
         return sum;
+
+        // int sum = 0;
+        // while (target>0)
+        // {
+        //     sum = sum + target%10;
+        //     target /= 10;
+        // } the easier method
     }
 
 }

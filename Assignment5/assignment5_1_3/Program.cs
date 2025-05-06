@@ -38,7 +38,7 @@ class Program
     //     }
 
     //     return false;
-
+69
     // }
 
     static bool UniqueValue(int[] num)
@@ -63,3 +63,18 @@ class Program
     }
 
 }
+
+/* HashSet<int> set = new HashSet<int>();
+    set.Add(1);
+    set.Add(1);
+
+    static bool ContainsDuplicates9
+    {
+        HashSet<int> set = new HashSet<int>();
+        foreach(int num in nums)
+        {
+            if(set.Contains(num)) return true;
+            else set.Add(num);
+        }
+    }
+    hashset > dictionary
