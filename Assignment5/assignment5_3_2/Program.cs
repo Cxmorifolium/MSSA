@@ -17,24 +17,30 @@ using System;
 class Program 
 {
     static void Main(string[] args) 
-    {
-
+    {   
+        // Added test case cus I forgot
+        int steps1 = 2;
+        int result1 = ClimbStairs(steps1);
+        Console.WriteLine($"Ways to climb {steps1} steps: {result1}");
     }
     
     static int ClimbStairs(int n)
     {
-        // It's fibonacci in which F(1) = 1 and F(2) = 2 thus rewriting from example problem:
-        int[] series = new int[n+1];
-        series[0] = 1; // base condition: starting at the bottom it's 1
-        series[1] = 1; // going up: 1 step
-        
-        for (int i = 2; i <= n; i++)
-        {   // series[i-1] = take 1 step; series[i-2] = take 2 step
-            series[i] = series[i-1] + series[i-2];
-        }
-        return series[n];
-
+        // Oop gotta check for this first
         if (n <= 1) return 1;
+
+        // Fibonacci-like series where F(1) = 1 and F(2) = 2
+        int[] series = new int[n + 1];
+        series[0] = 1; // base condition: starting at the bottom
+        series[1] = 1; // 1 way to climb to the first step (1 step)
+
+        for (int i = 2; i <= n; i++)
+        {
+            series[i] = series[i - 1] + series[i - 2]; // ways to reach the current step
+        }
+        
+        return series[n];
     }
+
 
 }
