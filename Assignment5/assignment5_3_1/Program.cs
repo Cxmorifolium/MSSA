@@ -37,6 +37,7 @@ class Program
 
     }
 
+//O(n) time complexity 
     static bool CanPlaceFlowers(int[] flowerbed, int n)
     { // Starting at index 0, to the length of the array, incremeting
         for (int i = 0; i < flowerbed.Length; i++)
