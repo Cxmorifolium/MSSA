@@ -54,7 +54,7 @@ class Program
         //Matrix property GetLength() finds number of rows
         int size = matrix.GetLength(0);
 
-        // Base Condition: if the index exceed the side = outofbounds/nukk
+        // Base Condition: if the index exceed the side = outofbounds/null
         if (index >= size)
             return 0;
         
