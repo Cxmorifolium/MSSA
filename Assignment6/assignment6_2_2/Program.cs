@@ -24,17 +24,16 @@ class Program
 {
     static void Main(string[] args)
     {
-        // tested on leetcode
+        // I tested on leetcode
     }
 
     static int[] ProductExceptSelf(int[] nums)
     {
         //Initialize array starting at index[0] = 1 since we know there's no index before it
-        int[]answer - new int[nums.Length];
+        int[]answer = new int[nums.Length];
         answer[0] = 1; 
 
         //Prefix logic left to right
-        int prefix = 1; //since we know it starts at 1 and then accumulate from here
         for(int i = 0; i < nums.Length; i++)
         {
             answer[i] = answer[i-1]*nums[i-1]; //the mathematical equation
@@ -54,9 +53,9 @@ class Program
 
 /* so answer [i] = product of all other numbers except current index nums
 After googling the logic, it is as follows:
-Prefix[] you go from left to right since index[0] has nothing before it, it's product is nums[0]
+Prefix[] you go from left to right since index[0] has nothing before it, it's product is 1.
 example: [1,2,3,4]
-index[0] = 1
+index[0] = 1 
 index[1] will then be nums[0] = 1
 index[2] will be nums[0]*nums[1]= 1*2
 index[3] will be num[0]*num[1]*nums[2] = 1*2*3
