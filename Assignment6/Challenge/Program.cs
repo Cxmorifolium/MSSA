@@ -49,6 +49,7 @@ class Program
         {
             Array.Reverse(matrix[i]);
         }
-
     }
 }
+
+// TC O(n^2)
