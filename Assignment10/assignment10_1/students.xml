@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<ArrayOfStudent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Student>
+    <Name>Lewis Carrol</Name>
+    <Age>20</Age>
+    <Major>Literature</Major>
+    <StudentID>1001</StudentID>
+  </Student>
+  <Student>
+    <Name>Agatha Christie</Name>
+    <Age>22</Age>
+    <Major>English Literature</Major>
+    <StudentID>1002</StudentID>
+  </Student>
+  <Student>
+    <Name>Conan Doyal</Name>
+    <Age>19</Age>
+    <Major>Physics</Major>
+    <StudentID>1003</StudentID>
+  </Student>
+  <Student>
+    <Name>Edgar Allen Poe</Name>
+    <Age>24</Age>
+    <Major>World History</Major>
+    <StudentID>1004</StudentID>
+  </Student>
+</ArrayOfStudent>

@@ -1,0 +1,26 @@
+[
+  {
+    "Name": "Lewis Carrol",
+    "Age": 20,
+    "Major": "Literature",
+    "StudentID": 1001
+  },
+  {
+    "Name": "Agatha Christie",
+    "Age": 22,
+    "Major": "English Literature",
+    "StudentID": 1002
+  },
+  {
+    "Name": "Conan Doyal",
+    "Age": 19,
+    "Major": "Physics",
+    "StudentID": 1003
+  },
+  {
+    "Name": "Edgar Allen Poe",
+    "Age": 24,
+    "Major": "World History",
+    "StudentID": 1004
+  }
+]
