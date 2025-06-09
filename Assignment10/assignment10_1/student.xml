@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Student xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StudentID>100</StudentID>
+  <StudentName>Lewis Carroll</StudentName>
+  <GPA>4</GPA>
+  <Grade>100</Grade>
+  <Enrollment>2025-01-01T00:00:00</Enrollment>
+</Student>
