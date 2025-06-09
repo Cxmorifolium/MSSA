@@ -37,7 +37,7 @@ namespace assignment10_1
 
         private void InitializeStudentData()
         {
-            // Initialize with some sample data
+            // Initialize with default data
             students.Add(new Student("John Doe", 20, "Computer Science", 1001));
             students.Add(new Student("Jane Smith", 22, "Mathematics", 1002));
             students.Add(new Student("Bob Johnson", 19, "Physics", 1003));
