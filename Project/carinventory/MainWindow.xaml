@@ -1,0 +1,141 @@
+﻿<Window x:Class="carinventory.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:carinventory"
+        mc:Ignorable="d"
+        Title="Car Inventory Management" Height="500" Width="900">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <!-- Title -->
+        <TextBlock Grid.Row="0" Text="Car Inventory Management System" 
+                   FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" 
+                   Margin="0,0,0,20" Foreground="DarkBlue"/>
+        
+        <!-- Input Controls -->
+        <GroupBox Grid.Row="1" Header="Car Information" Padding="10" Margin="0,0,0,10">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="150"/>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="150"/>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="150"/>
+                </Grid.ColumnDefinitions>
+                
+                <!-- Row 1: Car ID and Make -->
+                <Label Grid.Row="0" Grid.Column="0" Content="Car ID:" VerticalAlignment="Center"/>
+                <TextBox Grid.Row="0" Grid.Column="1" x:Name="txtCarId" Height="25" VerticalAlignment="Center" IsReadOnly="True"/>
+                
+                <Label Grid.Row="0" Grid.Column="3" Content="Make:" VerticalAlignment="Center"/>
+                <TextBox Grid.Row="0" Grid.Column="4" x:Name="txtMake" Height="25" VerticalAlignment="Center"/>
+                
+                <Label Grid.Row="0" Grid.Column="6" Content="Model:" VerticalAlignment="Center"/>
+                <TextBox Grid.Row="0" Grid.Column="7" x:Name="txtModel" Height="25" VerticalAlignment="Center"/>
+                
+                <!-- Row 2: Year and Price -->
+                <Label Grid.Row="1" Grid.Column="0" Content="Year:" VerticalAlignment="Center" Margin="0,10,0,0"/>
+                <TextBox Grid.Row="1" Grid.Column="1" x:Name="txtYear" Height="25" VerticalAlignment="Center" Margin="0,10,0,0"/>
+                
+                <Label Grid.Row="1" Grid.Column="3" Content="Price:" VerticalAlignment="Center" Margin="0,10,0,0"/>
+                <TextBox Grid.Row="1" Grid.Column="4" x:Name="txtPrice" Height="25" VerticalAlignment="Center" Margin="0,10,0,0"/>
+                
+                <!-- Row 3: Buttons -->
+                <StackPanel Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="8" Orientation="Horizontal" 
+                           HorizontalAlignment="Center" Margin="0,15,0,0">
+                    <Button x:Name="btnAdd" Content="Add Car" Width="80" Height="30" Margin="5" 
+                            Background="LightGreen" Click="btnAdd_Click"/>
+                    <Button x:Name="btnUpdate" Content="Update Car" Width="80" Height="30" Margin="5" 
+                            Background="LightBlue" Click="btnUpdate_Click"/>
+                    <Button x:Name="btnDelete" Content="Delete Car" Width="80" Height="30" Margin="5" 
+                            Background="LightCoral" Click="btnDelete_Click"/>
+                    <Button x:Name="btnClear" Content="Clear" Width="80" Height="30" Margin="5" 
+                            Background="LightGray" Click="btnClear_Click"/>
+                    <Button x:Name="btnShowAll" Content="Show All" Width="80" Height="30" Margin="5" 
+                            Background="WhiteSmoke" Click="btnShowAll_Click"/>
+                </StackPanel>
+            </Grid>
+        </GroupBox>
+        
+        <!-- DataGrid with Search in Headers -->
+        <GroupBox Grid.Row="2" Header="Car Inventory - Type in column headers to search" Padding="10">
+            <DataGrid x:Name="carGrid" AutoGenerateColumns="False" IsReadOnly="True"
+                      SelectionMode="Single" GridLinesVisibility="Horizontal"
+                      AlternatingRowBackground="LightGray" SelectionChanged="carGrid_SelectionChanged"
+                      CanUserAddRows="False" CanUserDeleteRows="False">
+                <DataGrid.Columns>
+                    <!-- Car ID Column -->
+                    <DataGridTextColumn Binding="{Binding CarId}" Width="80" IsReadOnly="True">
+                        <DataGridTextColumn.Header>
+                            <StackPanel>
+                                <TextBlock Text="ID" FontWeight="Bold" HorizontalAlignment="Center"/>
+                            </StackPanel>
+                        </DataGridTextColumn.Header>
+                    </DataGridTextColumn>
+                    
+                    <!-- Make Column with Search -->
+                    <DataGridTextColumn Binding="{Binding VehicleMake}" Width="150" IsReadOnly="True">
+                        <DataGridTextColumn.Header>
+                            <StackPanel>
+                                <TextBlock Text="Make" FontWeight="Bold" HorizontalAlignment="Center"/>
+                                <TextBox x:Name="txtSearchMake" Width="120" Height="20" Margin="2"
+                                         TextChanged="txtSearchMake_TextChanged" 
+                                         Background="LightYellow" BorderBrush="Gray"/>
+                            </StackPanel>
+                        </DataGridTextColumn.Header>
+                    </DataGridTextColumn>
+                    
+                    <!-- Model Column with Search -->
+                    <DataGridTextColumn Binding="{Binding VehicleModel}" Width="150" IsReadOnly="True">
+                        <DataGridTextColumn.Header>
+                            <StackPanel>
+                                <TextBlock Text="Model" FontWeight="Bold" HorizontalAlignment="Center"/>
+                                <TextBox x:Name="txtSearchModel" Width="120" Height="20" Margin="2"
+                                         TextChanged="txtSearchModel_TextChanged" 
+                                         Background="LightYellow" BorderBrush="Gray"/>
+                            </StackPanel>
+                        </DataGridTextColumn.Header>
+                    </DataGridTextColumn>
+                    
+                    <!-- Year Column with Search -->
+                    <DataGridTextColumn Binding="{Binding VehicleYear}" Width="100" IsReadOnly="True">
+                        <DataGridTextColumn.Header>
+                            <StackPanel>
+                                <TextBlock Text="Year" FontWeight="Bold" HorizontalAlignment="Center"/>
+                                <TextBox x:Name="txtSearchYear" Width="80" Height="20" Margin="2"
+                                         TextChanged="txtSearchYear_TextChanged" 
+                                         Background="LightYellow" BorderBrush="Gray"/>
+                            </StackPanel>
+                        </DataGridTextColumn.Header>
+                    </DataGridTextColumn>
+                    
+                    <!-- Price Column with Search -->
+                    <DataGridTextColumn Binding="{Binding VehiclePrice, StringFormat=C}" Width="120" IsReadOnly="True">
+                        <DataGridTextColumn.Header>
+                            <StackPanel>
+                                <TextBlock Text="Price" FontWeight="Bold" HorizontalAlignment="Center"/>
+                                <TextBox x:Name="txtSearchPrice" Width="90" Height="20" Margin="2"
+                                         TextChanged="txtSearchPrice_TextChanged" 
+                                         Background="LightYellow" BorderBrush="Gray"/>
+                            </StackPanel>
+                        </DataGridTextColumn.Header>
+                    </DataGridTextColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+        </GroupBox>
+    </Grid>
+</Window>
