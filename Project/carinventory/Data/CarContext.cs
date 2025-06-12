@@ -14,7 +14,6 @@ namespace carinventory.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            // Update connection string as needed
             optionsBuilder.UseSqlServer("data source=NELIEL;initial catalog=CarInventoryDB;integrated security=True;encrypt=False;trustservercertificate=True;MultipleActiveResultSets=True");
         }
 

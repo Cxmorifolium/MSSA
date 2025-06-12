@@ -14,7 +14,7 @@ namespace carinventory
         {
             InitializeComponent();
 
-            // Initialize database (like your employee example)
+            // Initialize database
             Records.carContext.Database.EnsureCreated();
 
             carCrud = new CarCRUD();
