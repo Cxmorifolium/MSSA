@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>EmployeePerformanceDS</DataSourceReference>
+      <DataSetParameters>
+        <DataSetParameter Name="@Year">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>false</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+          <rd:DbType>Object</rd:DbType>
+        </DataSetParameter>
+        <DataSetParameter Name="@Department">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>false</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+          <rd:DbType>Object</rd:DbType>
+        </DataSetParameter>
+      </DataSetParameters>
+      <CommandText>SELECT 
+    SaleMonth,
+    SUM(TotalSales) AS MonthlyTotal,
+    SUM(TargetAmount) AS MonthlyTarget,
+    COUNT(DISTINCT EmployeeID) AS ActiveEmployees
+FROM vw_PerformanceVsTarget
+WHERE SaleYear = @Year
+    AND (@Department = 'All' OR Department = @Department)
+GROUP BY SaleMonth
+ORDER BY SaleMonth</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="SaleMonth">
+        <DataField>SaleMonth</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="MonthlyTotal">
+        <DataField>MonthlyTotal</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="MonthlyTarget">
+        <DataField>MonthlyTarget</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="ActiveEmployees">
+        <DataField>ActiveEmployees</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>
